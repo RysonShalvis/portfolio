@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+  font-family: 'Rubik', serif;
+  line-height: 1.5;
+  
+}
+
+.header-ctn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(25,27,29);
+  align-items: center;
+  font-family: 'Rubik', serif;
+}
+
+.header-name {
+  font-size: 35px;
+  color: white;
+  font-weight: 500;
+  padding-left: 50px;
+}
+
+.nav-link-ctn {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(154,155,155);
+}
+
+.nav-link {
+  font-family: 'Rubik', serif;
+  font-weight: 300;
+}
+
+.home-ctn {
+  box-sizing: border-box;
+
+  height: 87vh;
+  color: rgb(154,155,155);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: rgb(25,27,29);
+}
+
+.intro-ctn {
+  width: 40%;
+  margin-top: 100px;
+}
+
+.intro-name {
+  font-size: 50px;
+  color: white;
+}
+
+.intro-summary {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.btn {
+  color: white;
+  height: 75px;
+  width: 220px;
+  font-size: 25px;
+  background-color: rgb(75,108,193);
+  border-radius: 75px;
+  border-style: none;
+  font-family: 'Rubik', serif;
+
+}
+
+.picture-ctn {
+  height: 500px;
+  width: 400px;
+  background-color: rgb(19,20,22);
+  border-radius: 5px;
+}
+
+.profile-picture {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  object-fit: cover;
+  height: 500px;
+  width: 300px;
+  border-radius: 5px;
+  
+}
+
+
+.featured-project-title {
+  font-family: 'Rubik', serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(126,126,126);
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.under-line {
+  height: 5px;
+
+  background-color: rgb(248, 244, 244);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.featured-project-ctn {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(126,126,126);
+  margin-top: 100px;
+}
+
+.img-ctn {
+  
+}
+
+.trick-creator {
+
+  width: 600px;
+}
+
+.featured-project-summary-ctn {
+  width: 400px;
+}
+
+.featured-project-name {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.featured-project-summary {
+  color: rgb(80, 79, 79);
+  font-weight: 300;
+}
+
+.more-info {
+  font-size: 20px;
+  font-weight: 600;
+}
+
