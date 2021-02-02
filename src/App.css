@@ -115,26 +115,34 @@ html {
   display: flex;
   justify-content: space-evenly;
   color: rgb(126,126,126);
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .img-ctn {
-  
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
 }
 
 .trick-creator {
-
   width: 600px;
+  border-style: solid;
+  border-color: rgb(126,126,126);
+  border-radius: 5px;
 }
 
 .featured-project-summary-ctn {
   width: 400px;
+  padding-top: 0;
+ 
 }
 
 .featured-project-name {
   color: black;
   font-size: 40px;
   font-weight: 400;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .featured-project-summary {
@@ -143,7 +151,21 @@ html {
 }
 
 .more-info {
+  display: inline-block;
   font-size: 20px;
   font-weight: 600;
 }
 
+.computer-svg {
+  height: 17px;
+  margin-right: 20px;
+}
+
+.lightbulb {
+  height: 20px;
+  margin-right: 15px;
+}
+
+.project-details {
+  margin-top: 30px;
+}
