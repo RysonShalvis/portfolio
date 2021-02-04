@@ -120,7 +120,7 @@ html {
 }
 
 .under-line {
-  height: 5px;
+  height: 4px;
 
   background-color: rgb(248, 244, 244);
   margin-left: 50px;
@@ -143,15 +143,15 @@ html {
 }
 
 .trick-creator {
-  width: 600px;
+  width: 40vw;
   border-style: solid;
   border-color: rgb(126,126,126);
   border-radius: 5px;
 }
 
 .featured-project-summary-ctn {
-  width: 400px;
-  padding-top: 0;
+  width: 33vw;
+  
  
 }
 
@@ -159,8 +159,6 @@ html {
   color: black;
   font-size: 40px;
   font-weight: 400;
-  padding-top: 0;
-  margin-top: 0;
 }
 
 .featured-project-summary {
