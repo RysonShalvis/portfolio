@@ -6,7 +6,8 @@ import lightbulb from './lightbulb.png'
 class FeaturedProjects extends Component {
     render() {
         return (
-            <div>
+            <div className="featured-projects-ctn-ctn">
+                <div className="diagonal"></div>
                 <p className="featured-project-title">FEATURED PROJECT</p>
                 <div className="under-line"></div>
                 
