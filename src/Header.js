@@ -10,6 +10,7 @@ class Header extends Component {
                     <h2 className="nav-link">Home</h2>
                     <h2 className="nav-link">Projects</h2>
                     <h2 className="nav-link">About</h2>
+                    <h2 className="nav-link">Contact</h2>
                 </div>
             </div>
         );
