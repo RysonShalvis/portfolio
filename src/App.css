@@ -137,15 +137,21 @@ html {
 }
 
 .img-ctn {
+  padding-top: 4vw;
   display: flex;
   flex-direction: column;
   flex-grow: inherit;
+  width: 55vw;
+  height: 35vw;
+  background-color: rgb(228, 228, 228);
+  align-items: center;
+  border-radius: 5px;
 }
 
 .trick-creator {
-  width: 40vw;
-  border-style: solid;
-  border-color: rgb(126,126,126);
+  width: 45vw;
+  box-shadow: -5px 5px 5px rgb(160, 160, 160);
+  
   border-radius: 5px;
 }
 
@@ -184,4 +190,8 @@ html {
 
 .project-details {
   margin-top: 30px;
+}
+
+.underlines {
+  margin-top: 50px;
 }
