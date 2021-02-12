@@ -195,3 +195,9 @@ html {
 .underlines {
   margin-top: 50px;
 }
+
+@media screen and (min-width: 1600px) {
+  .diagonal {
+    transform: rotate(3deg);
+  }
+}
