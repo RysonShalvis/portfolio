@@ -127,6 +127,10 @@ html {
   margin-right: 50px;
 }
 
+.third-underline {
+  margin-top: 100px !important;
+}
+
 .featured-project-ctn {
   display: flex;
   justify-content: space-between;
@@ -194,6 +198,37 @@ html {
 
 .underlines {
   margin-top: 50px;
+}
+
+.contact-ctn {
+  overflow: hidden;
+}
+
+.left-diagonal {
+  margin-top: 100px;
+  position: relative;
+  height: 20vh;
+  width: 150vw;
+  background-color: rgb(25,27,29);
+  transform: rotate(-5deg);
+  overflow: hidden;
+  z-index: -5;
+}
+
+.contact-wrapper {
+  margin-top: -50px;
+  height: 300px;
+  width: 100%;
+  background-color: rgb(25,27,29);
+  text-align: center;
+}
+
+.contact-me {
+  color: white;
+}
+
+.cont-info {
+  color: rgb(140,141,142);
 }
 
 @media screen and (min-width: 1600px) {
