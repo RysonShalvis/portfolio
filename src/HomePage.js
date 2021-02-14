@@ -5,7 +5,7 @@ class HomePage extends Component {
     render() {
         return (
             <div className="home-ctn">
-                <p>This is a work in progress, not all features will be available!</p>
+                
                 <div className="intro-ctn">
                     <h1 className="intro-name">Hey, I'm Ryson.</h1>
                     <h2 className="intro-summary">A Web Developer from Salt Lake City, Utah. I code websites as a passion of mine.</h2>
