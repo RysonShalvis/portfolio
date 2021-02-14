@@ -5,6 +5,10 @@ html {
   line-height: 1.5;
   
 }
+a {
+  text-decoration: none;
+  color: rgb(154,155,155);
+}
 
 .header-ctn {
   width: 100%;
@@ -32,6 +36,11 @@ html {
 .nav-link {
   font-family: 'Rubik', serif;
   font-weight: 300;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: white;
 }
 
 .home-ctn {
