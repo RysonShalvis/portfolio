@@ -1,16 +1,19 @@
 import './App.css';
 import FeaturedProjects from './FeaturedProjects';
 import Header from './Header'
-import HomePage from './HomePage';
+import Home from './Home';
 import Contact from './Contact';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+
+      <Router>
         <Header />
-        <HomePage />
-        <FeaturedProjects />
+        <Route exact path='/' component={Home} />
         <Contact />
+      </Router>
     </div>
   );
 }

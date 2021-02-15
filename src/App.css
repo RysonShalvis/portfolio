@@ -81,7 +81,15 @@ a {
   border-radius: 75px;
   border-style: none;
   font-family: 'Rubik', serif;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  outline: none;
+}
 
+.project-btn:hover {
+  background-color: rgb(25,27,29);
+  border-style: solid;
+  border-color: rgb(75,108,193);
 }
 
 .picture-ctn {
@@ -203,6 +211,13 @@ a {
 
 .project-details {
   margin-top: 30px;
+}
+
+.project-details:hover {
+  color: rgb(75,108,193);
+  background-color: white;
+  border-color: rgb(75,108,193);
+  border-style: solid;
 }
 
 .underlines {
