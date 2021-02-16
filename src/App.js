@@ -3,17 +3,17 @@ import FeaturedProjects from './FeaturedProjects';
 import Header from './Header'
 import Home from './Home';
 import Contact from './Contact';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
 
-      <Router>
+      <HashRouter basename="/">
         <Header />
-        <Home />
+        <Route exact path="/" component={Home} />
         <Contact />
-      </Router>
+      </HashRouter>
     </div>
   );
 }
