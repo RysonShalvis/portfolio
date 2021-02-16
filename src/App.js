@@ -11,7 +11,7 @@ function App() {
 
       <Router>
         <Header />
-        <Route exact path='/' component={Home} />
+        <Home />
         <Contact />
       </Router>
     </div>
