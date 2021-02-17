@@ -10,7 +10,7 @@ class FeaturedProjects extends Component {
     render() {
         return (
             <div id="projects" className="featured-projects-ctn-ctn">
-                <div className="diagonal"></div>
+                
                 <p className="featured-project-title">FEATURED PROJECTS</p>
                 <div className="under-line"></div>
                 
