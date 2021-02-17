@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b2ba9191.chunk.css",
-    "main.js": "/portfolio/static/js/main.270fc369.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.270fc369.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.032193d5.chunk.css",
+    "main.js": "/portfolio/static/js/main.5867afbd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5867afbd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.82ed0b6b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.82ed0b6b.js.map",
-    "static/js/2.3d72dcb0.chunk.js": "/portfolio/static/js/2.3d72dcb0.chunk.js",
-    "static/js/2.3d72dcb0.chunk.js.map": "/portfolio/static/js/2.3d72dcb0.chunk.js.map",
+    "static/js/2.c18cdd9d.chunk.js": "/portfolio/static/js/2.c18cdd9d.chunk.js",
+    "static/js/2.c18cdd9d.chunk.js.map": "/portfolio/static/js/2.c18cdd9d.chunk.js.map",
     "static/js/3.f69f9d7f.chunk.js": "/portfolio/static/js/3.f69f9d7f.chunk.js",
     "static/js/3.f69f9d7f.chunk.js.map": "/portfolio/static/js/3.f69f9d7f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.b2ba9191.chunk.css.map": "/portfolio/static/css/main.b2ba9191.chunk.css.map",
-    "static/js/2.3d72dcb0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3d72dcb0.chunk.js.LICENSE.txt",
+    "static/css/main.032193d5.chunk.css.map": "/portfolio/static/css/main.032193d5.chunk.css.map",
+    "static/js/2.c18cdd9d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c18cdd9d.chunk.js.LICENSE.txt",
+    "static/media/Full-page-yelp.56a7fb10.png": "/portfolio/static/media/Full-page-yelp.56a7fb10.png",
     "static/media/My Picture.418ca98f.jpg": "/portfolio/static/media/My Picture.418ca98f.jpg",
     "static/media/Trick-screen-1.aeb23c44.png": "/portfolio/static/media/Trick-screen-1.aeb23c44.png",
     "static/media/Trick-screen-4.0b3b3d3d.png": "/portfolio/static/media/Trick-screen-4.0b3b3d3d.png",
+    "static/media/full-page-invision.299805b4.png": "/portfolio/static/media/full-page-invision.299805b4.png",
     "static/media/invision-clone-screentshot.32eeb8ae.png": "/portfolio/static/media/invision-clone-screentshot.32eeb8ae.png",
     "static/media/lightbulb.a5f2c203.png": "/portfolio/static/media/lightbulb.a5f2c203.png",
     "static/media/yelp-api-screenshot.6446c90c.png": "/portfolio/static/media/yelp-api-screenshot.6446c90c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.82ed0b6b.js",
-    "static/js/2.3d72dcb0.chunk.js",
-    "static/css/main.b2ba9191.chunk.css",
-    "static/js/main.270fc369.chunk.js"
+    "static/js/2.c18cdd9d.chunk.js",
+    "static/css/main.032193d5.chunk.css",
+    "static/js/main.5867afbd.chunk.js"
   ]
 }
