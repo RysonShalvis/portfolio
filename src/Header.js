@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
 
@@ -20,7 +20,7 @@ class Header extends Component {
                 <p>This is a work in progress, not all features will be available!</p>
                 <div className="nav-link-ctn">
                     <a href="./"><h2 className="nav-link">Home</h2></a>
-                    <h2 onClick={this.onProjects} className="nav-link">Projects</h2>
+                    <Link to="/"><h2 onClick={this.onProjects} className="nav-link">Projects</h2></Link>
                     <h2 onClick={this.onContact} className="nav-link">Contact</h2>
                 </div>
             </div>
