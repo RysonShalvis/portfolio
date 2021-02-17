@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
+
+    onProjects() {
+        const anchor = document.querySelector('#projects')
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    onContact() {
+        const anchor = document.querySelector('#contact')
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
     render() {
         return (
             <div className="header-ctn">
@@ -9,8 +20,8 @@ class Header extends Component {
                 <p>This is a work in progress, not all features will be available!</p>
                 <div className="nav-link-ctn">
                     <a href="./"><h2 className="nav-link">Home</h2></a>
-                    <a href="#projects"><h2 className="nav-link">Projects</h2></a>
-                    <a href="#contact"><h2 className="nav-link">Contact</h2></a>
+                    <Link to="/"><h2 onClick={this.onProjects} className="nav-link">Projects</h2></Link>
+                    <h2 onClick={this.onContact} className="nav-link">Contact</h2>
                 </div>
             </div>
         );
