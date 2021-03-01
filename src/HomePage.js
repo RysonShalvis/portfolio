@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import me from './My Picture.jpg';
-import { Link } from 'react-router-dom';
 
 
 class HomePage extends Component {
-
-    constructor(props) {
-        super(props);
-    }
 
     componentDidMount() {
         console.log(this.props)
@@ -20,7 +15,7 @@ class HomePage extends Component {
 
     render() {
         return (
-            <div>
+            <div className="homepage">
 
                 <div className="home-ctn">
                     

@@ -10,6 +10,10 @@ a {
   color: rgb(154,155,155);
 }
 
+.mobile {
+  display: none;
+}
+
 .header-ctn {
   width: 100%;
   display: flex;
@@ -41,6 +45,10 @@ a {
 
 .nav-link:hover {
   color: white;
+}
+
+.homepage {
+  overflow: hidden;
 }
 
 .home-ctn {
@@ -126,6 +134,9 @@ a {
   overflow: hidden;
 }
 
+.mobile-title {
+  display: none;
+}
 
 .featured-project-title {
   font-family: 'Rubik', serif;
@@ -231,10 +242,10 @@ a {
 .left-diagonal {
   margin-top: 100px;
   position: relative;
-  height: 20vh;
+  height: 12vh;
   width: 150vw;
   background-color: rgb(25,27,29);
-  transform: rotate(-5deg);
+  transform: rotate(-4deg);
   overflow: hidden;
   z-index: -5;
 }
@@ -290,4 +301,59 @@ a {
   .diagonal {
     transform: rotate(3deg);
   }
+  .left-diagonal {
+    transform: rotate(-3deg);
+    height: 13vh;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .title-left-desktop {
+    display: none;
+  }
+
+  .featured-project-ctn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-title {
+    display: block;
+    text-align: center;
+  }
+
+  .title-right-desktop {
+    display: none;
+  }
+
+  .yelp-summary {
+    margin-top: 50px;
+    
+  }
+
+  .invision-summary {
+    margin-top: 50px;
+  }
+
+  .trick-creator-summary {
+    margin-top: 150px;
+  }
+
+  .featured-project-summary {
+    text-align: center;
+    
+    
+  }
+
+
 }
