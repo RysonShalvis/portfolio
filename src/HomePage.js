@@ -16,8 +16,16 @@ class HomePage extends Component {
     render() {
         return (
             <div className="homepage">
-
-                <div className="home-ctn">
+                <div className="home-ctn-mobile mobile">
+                    <div className="picture-ctn-mobile">
+                        <img src={me} alt="Ryson Shalvis" className="profile-picture-mobile"/>
+                    </div>
+                    <div className="intro-ctn-mobile">
+                        <h1>Hey, I'm Ryson.</h1>
+                        <div className="intro-summary-mobile">A Web Developer from Salt Lake City, Utah. I code websites as a passion of mine.</div>
+                    </div>
+                </div>
+                <div className="home-ctn desktop">
                     
                     <div className="intro-ctn">
                         <h1 className="intro-name">Hey, I'm Ryson.</h1>
