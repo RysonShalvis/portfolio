@@ -58,7 +58,7 @@ class Header extends Component {
                 </div>
                 <div className="header-ctn desktop">
                     <h1 className="header-name">Ryson Shalvis</h1>
-                    <p>This is a work in progress, not all features will be available!</p>
+                    <p className="disclaimer">This is a work in progress, not all features will be available!</p>
                     <div className="nav-link-ctn">
                         <a href="./"><h2 className="nav-link">Home</h2></a>
                         <Link to="/"><h2 onClick={this.onProjects} className="nav-link">Projects</h2></Link>

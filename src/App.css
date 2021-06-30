@@ -30,6 +30,10 @@ a {
   padding-left: 50px;
 }
 
+.disclaimer {
+  color: gray;
+}
+
 .nav-link-ctn {
   width: 500px;
   display: flex;
