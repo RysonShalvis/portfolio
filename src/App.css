@@ -425,4 +425,17 @@ a {
     top: -60px;
   }
 
+  .img-ctn {
+    width: 80vw;
+    height: 65vw;
+  }
+
+  .trick-creator {
+    width: 70vw;
+  }
+
+  .featured-project-summary-ctn {
+    width: 70vw;
+  }
+
 }
