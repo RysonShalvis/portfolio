@@ -30,8 +30,12 @@ a {
   padding-left: 50px;
 }
 
+.disclaimer {
+  color: gray;
+}
+
 .nav-link-ctn {
-  width: 40%;
+  width: 500px;
   display: flex;
   justify-content: space-evenly;
   color: rgb(154,155,155);
@@ -310,13 +314,9 @@ a {
 
 @media screen and (max-width: 950px) {
 
-  .desktop {
-    display: none;
-  }
+  
 
-  .mobile {
-    display: block;
-  }
+  
 
   .title-left-desktop {
     display: none;
@@ -358,7 +358,7 @@ a {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .desktop {
     display: none;
   }
@@ -379,14 +379,71 @@ a {
   }
 
   .hamburger-icon-ctn {
+    position: relative;
+    z-index: 20;
     margin-right: 0;
+  }
+
+  .hamburger-open {
+    background-color: black;
+  }
+
+  .hamburger-closed {
+    background-color: white;
   }
 
   .hamburger-icon {
     width: 30px;
     height: 5px;
     margin-top: 2px;
+    
+  }
+
+  @keyframes menuSlide {
+    from {
+      width: 0
+    }
+
+    to {
+      width: 50%;
+    }
+  }
+
+  @keyframes menuSlideOut {
+    from {
+      width: 50%
+    }
+
+    to {
+      width: 0;
+    }
+  }
+
+  .opened {
+    animation: menuSlide .25s ease-in;
+  }
+
+  .closing {
+    animation: menuSlideOut .25s ease-in;
+  }
+
+  .closed {
+    
+    display: none;
+  }
+
+  .nav-link-ctn-mobile {
+    position: absolute;
+    color: rgb(154,155,155);
+    top: 0;
+    right: 0;
     background-color: white;
+    width: 50%;
+  }
+
+  .nav-link-mobile {
+    margin-left: 10px;
+    margin-top: 30px;
   }
 
   .home-ctn-mobile {
@@ -423,6 +480,19 @@ a {
 
   .diagonal {
     top: -60px;
+  }
+
+  .img-ctn {
+    width: 80vw;
+    height: 65vw;
+  }
+
+  .trick-creator {
+    width: 70vw;
+  }
+
+  .featured-project-summary-ctn {
+    width: 70vw;
   }
 
 }

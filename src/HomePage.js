@@ -4,14 +4,12 @@ import me from './My Picture.jpg';
 
 class HomePage extends Component {
 
-    componentDidMount() {
-        console.log(this.props)
-    }
-
     onClick() {
         const anchor = document.querySelector('#projects')
         anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+
+    
 
     render() {
         return (
