@@ -398,17 +398,18 @@ a {
   }
 
   .intro-ctn-mobile {
+    margin: 20px;
     color: white;
   }
 
   .intro-ctn-mobile h1 {
-    text-align: center;
+    
     margin: 0;
   }
 
   .intro-summary-mobile {
     color: rgb(154,155,155);
-    text-align: center;
+    
   }
 
   .picture-ctn-mobile {
@@ -416,7 +417,12 @@ a {
   }
 
   .profile-picture-mobile {
-    height: 200px;
+    width: 80vw;
+    
+  }
+
+  .diagonal {
+    top: -60px;
   }
 
 }
