@@ -9,6 +9,8 @@ class HomePage extends Component {
         anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
+    
+
     render() {
         return (
             <div className="homepage">
