@@ -31,7 +31,7 @@ a {
 }
 
 .nav-link-ctn {
-  width: 40%;
+  width: 500px;
   display: flex;
   justify-content: space-evenly;
   color: rgb(154,155,155);
@@ -310,13 +310,9 @@ a {
 
 @media screen and (max-width: 950px) {
 
-  .desktop {
-    display: none;
-  }
+  
 
-  .mobile {
-    display: block;
-  }
+  
 
   .title-left-desktop {
     display: none;
@@ -358,7 +354,7 @@ a {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .desktop {
     display: none;
   }
