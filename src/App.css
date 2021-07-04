@@ -142,15 +142,7 @@ a {
   height: 0;
   border-top: 10.5vh solid rgb(25,27,29);
   border-left: 100vw solid transparent;
-  /*width: 150vw;
-  height: 150px; */
-  /*background-color: rgb(25,27,29);
-  position: relative;
-  z-index: -10;
-  top: -35px;
-  transform: rotate(5deg);
   
-  overflow: hidden; */
 }
 
 .mobile-title {
@@ -185,6 +177,7 @@ a {
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
+  
 }
 
 .img-ctn {
@@ -208,8 +201,6 @@ a {
 
 .featured-project-summary-ctn {
   width: 33vw;
-  
- 
 }
 
 .featured-project-name {
@@ -224,7 +215,7 @@ a {
 }
 
 .more-info {
-  display: inline-block;
+  display: block;
   font-size: 20px;
   font-weight: 600;
 }
@@ -256,17 +247,19 @@ a {
 
 .contact-ctn {
   overflow: hidden;
+  position: relative;
+  
 }
 
 .left-diagonal {
-  margin-top: 100px;
   position: relative;
-  height: 12vh;
-  width: 150vw;
-  background-color: rgb(25,27,29);
-  transform: rotate(-4deg);
-  overflow: hidden;
-  z-index: -5;
+  width: 0;
+  height: 0;
+  border-bottom: 10.5vh solid rgb(25,27,29);
+  border-left: 100vw solid transparent;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  
 }
 
 .contact-wrapper {
@@ -283,6 +276,8 @@ a {
 
 .cont-info {
   color: rgb(140,141,142);
+  
+  margin: 0;
 }
 
 .full-page-yelp-ctn {
@@ -315,17 +310,6 @@ a {
   position: relative;
   top: 500px;
 }
-
-@media screen and (min-width: 1600px) {
-  .diagonal {
-    transform: rotate(3deg);
-  }
-  .left-diagonal {
-    transform: rotate(-3deg);
-    height: 13vh;
-  }
-
-} 
 
 @media screen and (max-width: 950px) {
 
@@ -514,4 +498,11 @@ a {
     width: 70vw;
   }
 
+}
+
+@media screen and (max-width: 425px) {
+
+  .cont-info {
+    font-size: 5.5vw;
+  }
 }
