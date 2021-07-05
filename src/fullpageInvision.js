@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import fullpageInvision from './full-page-invision.png';
 
 class FullpageInvision extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     render() {
         return (
             <div className="full-page-yelp-ctn">

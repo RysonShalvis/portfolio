@@ -7,6 +7,11 @@ import trick5 from './Trick-creator-screen-shots/Trick-screen-5.png';
 import trick6 from './Trick-creator-screen-shots/Trick-screen-6.png';
 
 class FullPageTrickCreator extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     render() {
         return (
             <div className="full-page-yelp-ctn">
