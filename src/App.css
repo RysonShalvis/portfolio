@@ -311,6 +311,11 @@ a {
   top: 500px;
 }
 
+.trick-creator-img {
+  width: 90vw;
+  border-bottom: solid;
+}
+
 @media screen and (max-width: 950px) {
 
   

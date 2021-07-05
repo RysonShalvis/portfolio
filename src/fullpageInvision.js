@@ -11,7 +11,7 @@ class FullpageInvision extends Component {
                 <div className="diagonal"></div>
                 <div className="test">
                     <div className="redirect" id="projects"></div>
-                    <img className="full-page-yelp" src={fullpageInvision} alt="yelp api website"/>     
+                    <img className="full-page-yelp" src={fullpageInvision} alt="Invision Clone website"/>     
                 </div>
             </div>
         );
