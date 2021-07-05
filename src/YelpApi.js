@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import fullpageYelp from './Full-page-yelp.png';
 
 class YelpApi extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     render() {
         return (
             <div className="full-page-yelp-ctn">
