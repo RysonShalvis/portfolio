@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b0e9378c.chunk.css",
-    "main.js": "/portfolio/static/js/main.ab37661c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ab37661c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.5c8ec596.chunk.css",
+    "main.js": "/portfolio/static/js/main.95e97174.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.95e97174.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6167481a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6167481a.js.map",
     "static/js/2.9083c593.chunk.js": "/portfolio/static/js/2.9083c593.chunk.js",
@@ -10,12 +10,16 @@
     "static/js/3.02ecc61e.chunk.js": "/portfolio/static/js/3.02ecc61e.chunk.js",
     "static/js/3.02ecc61e.chunk.js.map": "/portfolio/static/js/3.02ecc61e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.b0e9378c.chunk.css.map": "/portfolio/static/css/main.b0e9378c.chunk.css.map",
+    "static/css/main.5c8ec596.chunk.css.map": "/portfolio/static/css/main.5c8ec596.chunk.css.map",
     "static/js/2.9083c593.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9083c593.chunk.js.LICENSE.txt",
     "static/media/Full-page-yelp.56a7fb10.png": "/portfolio/static/media/Full-page-yelp.56a7fb10.png",
     "static/media/My Picture.418ca98f.jpg": "/portfolio/static/media/My Picture.418ca98f.jpg",
     "static/media/Trick-screen-1.aeb23c44.png": "/portfolio/static/media/Trick-screen-1.aeb23c44.png",
+    "static/media/Trick-screen-2.e71b3bdf.png": "/portfolio/static/media/Trick-screen-2.e71b3bdf.png",
+    "static/media/Trick-screen-3.4641c5f8.png": "/portfolio/static/media/Trick-screen-3.4641c5f8.png",
     "static/media/Trick-screen-4.0b3b3d3d.png": "/portfolio/static/media/Trick-screen-4.0b3b3d3d.png",
+    "static/media/Trick-screen-5.13ec3fd6.png": "/portfolio/static/media/Trick-screen-5.13ec3fd6.png",
+    "static/media/Trick-screen-6.5faabdec.png": "/portfolio/static/media/Trick-screen-6.5faabdec.png",
     "static/media/full-page-invision.299805b4.png": "/portfolio/static/media/full-page-invision.299805b4.png",
     "static/media/invision-clone-screentshot.32eeb8ae.png": "/portfolio/static/media/invision-clone-screentshot.32eeb8ae.png",
     "static/media/lightbulb.a5f2c203.png": "/portfolio/static/media/lightbulb.a5f2c203.png",
@@ -24,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.6167481a.js",
     "static/js/2.9083c593.chunk.js",
-    "static/css/main.b0e9378c.chunk.css",
-    "static/js/main.ab37661c.chunk.js"
+    "static/css/main.5c8ec596.chunk.css",
+    "static/js/main.95e97174.chunk.js"
   ]
 }
