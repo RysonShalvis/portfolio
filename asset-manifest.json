@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.36bad4e0.chunk.css",
-    "main.js": "/portfolio/static/js/main.cc4146c1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.cc4146c1.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.770c4455.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.770c4455.js.map",
-    "static/js/2.57f97d43.chunk.js": "/portfolio/static/js/2.57f97d43.chunk.js",
-    "static/js/2.57f97d43.chunk.js.map": "/portfolio/static/js/2.57f97d43.chunk.js.map",
-    "static/js/3.615783c3.chunk.js": "/portfolio/static/js/3.615783c3.chunk.js",
-    "static/js/3.615783c3.chunk.js.map": "/portfolio/static/js/3.615783c3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.5074bf6e.chunk.css",
+    "main.js": "/portfolio/static/js/main.b211e182.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b211e182.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.771776be.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.771776be.js.map",
+    "static/js/2.b338ecfa.chunk.js": "/portfolio/static/js/2.b338ecfa.chunk.js",
+    "static/js/2.b338ecfa.chunk.js.map": "/portfolio/static/js/2.b338ecfa.chunk.js.map",
+    "static/js/3.553f706c.chunk.js": "/portfolio/static/js/3.553f706c.chunk.js",
+    "static/js/3.553f706c.chunk.js.map": "/portfolio/static/js/3.553f706c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.36bad4e0.chunk.css.map": "/portfolio/static/css/main.36bad4e0.chunk.css.map",
-    "static/js/2.57f97d43.chunk.js.LICENSE.txt": "/portfolio/static/js/2.57f97d43.chunk.js.LICENSE.txt",
+    "static/css/main.5074bf6e.chunk.css.map": "/portfolio/static/css/main.5074bf6e.chunk.css.map",
+    "static/js/2.b338ecfa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b338ecfa.chunk.js.LICENSE.txt",
     "static/media/Full-page-yelp.56a7fb10.png": "/portfolio/static/media/Full-page-yelp.56a7fb10.png",
     "static/media/My Picture.418ca98f.jpg": "/portfolio/static/media/My Picture.418ca98f.jpg",
     "static/media/Trick-screen-1.aeb23c44.png": "/portfolio/static/media/Trick-screen-1.aeb23c44.png",
@@ -27,9 +27,9 @@
     "static/media/yelp-api-screenshot.6446c90c.png": "/portfolio/static/media/yelp-api-screenshot.6446c90c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.770c4455.js",
-    "static/js/2.57f97d43.chunk.js",
-    "static/css/main.36bad4e0.chunk.css",
-    "static/js/main.cc4146c1.chunk.js"
+    "static/js/runtime-main.771776be.js",
+    "static/js/2.b338ecfa.chunk.js",
+    "static/css/main.5074bf6e.chunk.css",
+    "static/js/main.b211e182.chunk.js"
   ]
 }
